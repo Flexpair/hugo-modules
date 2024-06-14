@@ -1,6 +1,6 @@
 # Tab Shortcode (DEPRECATED)
 
-use this new version instead <https://github.com/gethugothemes/hugo-modules/tree/master/tab>
+use this new version instead <https://github.com/Flexpair/hugo-modules/tree/master/tab>
 
 ## Installation for Gethugothemes themes
 
@@ -8,7 +8,7 @@ Add the following code to your module list in the `config/_default/module.toml` 
 
 ```toml
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/tabs"
+path = "github.com/Flexpair/hugo-modules/shortcodes/tabs"
 ```
 
 Add the following code to your `assets/scss/main.scss` or `assets/scss/style.scss` file.

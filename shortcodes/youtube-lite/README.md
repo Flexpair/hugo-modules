@@ -1,6 +1,6 @@
 # Youtube Lite Shortcode (DEPRECATED)
 
-use this new version instead <https://github.com/gethugothemes/hugo-modules/tree/master/videos>
+use this new version instead <https://github.com/Flexpair/hugo-modules/tree/master/videos>
 
 ## Installation for Gethugothemes themes
 
@@ -8,7 +8,7 @@ Add the following code to your module list in the `config/_default/module.toml` 
 
 ```toml
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/shortcodes/youtube-lite"
+path = "github.com/Flexpair/hugo-modules/shortcodes/youtube-lite"
 ```
 
 <hr>
