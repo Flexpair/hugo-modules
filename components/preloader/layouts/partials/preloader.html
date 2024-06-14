@@ -15,7 +15,7 @@
         {{ $preloader_ext := path.Ext $preloader }}
 
         <!-- not gif -->
-        {{ if ne $preloader_ext ".gif" }}
+        {{ if ne $preloader_ext ".svg" }}
           <!-- image width -->
           {{ $preloader_width := $preloader.Width }}
           <!-- webp image -->
