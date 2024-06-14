@@ -13,12 +13,11 @@
 
         <!-- image extension -->
         {{ $preloader_ext := path.Ext $preloader }}
-        <!-- image width -->
-        {{ $preloader_width := $preloader.Width }}
-
 
         <!-- not gif -->
         {{ if ne $preloader_ext ".gif" }}
+          <!-- image width -->
+          {{ $preloader_width := $preloader.Width }}
           <!-- webp image -->
           {{ $option_webp := add (add (string $preloader_width) "x") " webp" }}
           {{ $scratch.Set "preloader" ($preloader.Resize $option_webp).RelPermalink }}
