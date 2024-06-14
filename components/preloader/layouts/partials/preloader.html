@@ -14,7 +14,7 @@
         <!-- image extension -->
         {{ $preloader_ext := path.Ext $preloader }}
 
-        <!-- not gif -->
+        <!-- not svg -->
         {{ if ne $preloader_ext ".svg" }}
           <!-- image width -->
           {{ $preloader_width := $preloader.Width }}
@@ -25,7 +25,7 @@
           {{ $option := add (string $preloader_width) "x" }}
           {{ $scratch.Set "preloader_fallback" ($preloader.Resize $option).RelPermalink }}
 
-          <!-- gif image -->
+          <!-- svg image -->
         {{ else }}
           {{ $scratch.Set "preloader" $preloader.RelPermalink }}
         {{ end }}
